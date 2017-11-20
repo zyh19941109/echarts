@@ -1,4 +1,4 @@
-## echarts
+## echarts 插件
 
 ### 安装jquery
 
@@ -40,6 +40,6 @@
             在打开页面的时候就已经固定尺寸
         */
 
-        $('#main').resizable({
-            resizeWidth:true
-        });
+            $('#main').resizable({
+                resizeWidth:true
+            });

@@ -19,9 +19,12 @@
         // });
 
         // 方法2
-        window.addEventListener('resize',_=>{
+        // window.addEventListener('resize',_=>{
+        //     this.myChart.resize();
+        // })
+        window.onresize = function(){
             this.myChart.resize();
-        })
+        }
 
         /*
             可根据设备窗口大小而改变（没有onresize）

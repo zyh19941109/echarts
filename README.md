@@ -32,7 +32,7 @@
             // 方法1（引入jq的方法）
             $(window).resize(function(){
                 myChart.resize();
-            });
+            })
 
             // 方法2（原生的方法）
             window.addEventListener('resize',_=>{
@@ -43,7 +43,7 @@
             window.onresize = function(){
                 this.myChart.resize();
             }
-        
+
         /*
             可根据设备窗口大小而改变（没有onresize）
             在打开页面的时候就已经固定尺寸
@@ -52,4 +52,4 @@
             //引入jq和jquery-resizable的方法
             $('#main').resizable({
                 resizeWidth:true
-            });
+            })
